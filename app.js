@@ -27,3 +27,4 @@ if (ahmad==5){
 else{
   console.log(false)
 }
+alert('welcome to our website')
