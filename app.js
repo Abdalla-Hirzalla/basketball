@@ -26,5 +26,5 @@ if (ahmad==5){
 }
 else{
   console.log(false)
-}
-alert('welcome to our website')
+};
+alert('welcome to our website'+" "+ firstName +" "+ secondName);
