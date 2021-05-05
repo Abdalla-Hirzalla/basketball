@@ -53,22 +53,23 @@ color: #1597bb
 }
 
 #three{
-  float: right;
- display: inline-block;
+  float: left;
+ margin-right: 80%;
  text-align: center;
-margin-right: 81%
+
 
 }
 #secondp{
     text-align: center;
 font-size: 25px
-;margin-top:  60%;
-margin-left: 50%
+;margin-top: 60%;
+margin-right: 10%;
 
 color: #1597bb
 }
 footer{
    color:crimson;
   background-color:white ;
-  text-align: center
+  text-align: center;
+  margin-top: 45%
 }
