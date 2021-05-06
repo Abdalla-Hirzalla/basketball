@@ -25,6 +25,7 @@ if (ahmad==5){
 }
 else{
   console.log(false)
+<<<<<<< HEAD
 }
 
 var favsport=prompt('what do you like more basketball or football?!');
@@ -62,3 +63,7 @@ var img = prompt('how many images about basketball you need to show ?');
 for (var i=0;i <= img ;i++){
   document.write('<img src="https://thumbs.dreamstime.com/b/burning-basketball-fire-background-backgrounds-168018631.jpg" width="200px">');
 }
+=======
+};
+alert('welcome to our website'+" "+ firstName +" "+ secondName);
+>>>>>>> 9142164b8e503517ec6bf7a1c7e189d03f57ab3e
