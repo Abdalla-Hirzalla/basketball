@@ -1,19 +1,18 @@
 var firstName=prompt('What is your first name ?');
-var secondName=prompt('What is your second name ?');
-alert('Good Morning '+ firstName +" "+ secondName);
+
+alert('Hello '+ firstName);
 
 var favsport=prompt('What is your favourite sport ?');
 
 if (favsport=='basketball'){
-  document.write('<img src="https://cdn.britannica.com/w:1100/44/193844-131-1E4A9F84/ball-net-basketball-game-arena.jpg" width=350px>');
+  document.write('<img src=https://cdn.britannica.com/w:1100/44/193844-131-1E4A9F84/ball-net-basketball-game-arena.jpg width=350px>')}
 
-}
 else if (favsport=='football'){
-  document.write('<img src="https://m.economictimes.com/thumb/msid-65210785,width-1200,height-900,resizemode-4,imgsize-343861/football1_gettyimages.jpg" width=350px>');
-
+  document.write('<img src="https://ebigh.com/wp-content/uploads/2021/04/football-soccer.jpg" width=350px>');
 }
+
 else if (favsport=='tennis'){
-  document.write('<img src="https://lh3.googleusercontent.com/proxy/i26RG6ATA1HlN05yrteokazhUvQ2QWBzGT3nTpK_tyZz90MMQpDUPzkS-qbgey-_hayEaaPSviCE3542Y3a_R6B7MPe5968zsG4e2fK6No_7eGU9eAgbWfd2z4uFApPH37vbWZXnoPSNLrAehw" width=350px>');}
+  document.write('<img src="https://photoresources.wtatennis.com/photo-resources/2019/08/15/dbb59626-9254-4426-915e-57397b6d6635/tennis-origins-e1444901660593.jpg?width=1024&height=512" width=350px>');}
 
 else{
   document.write('<h2> choose your favourite sport </h2>');
@@ -27,4 +26,39 @@ if (ahmad==5){
 else{
   console.log(false)
 }
-alert('welcome to our website')
+
+var favsport=prompt('what do you like more basketball or football?!');
+while(favsport!=='basketball' && favsport!=='football'){
+  favsport= prompt('please only answer with basketball or football ');
+}
+
+if (favsport=='basketball'){
+  document.write('<img src=https://cdn.britannica.com/w:1100/44/193844-131-1E4A9F84/ball-net-basketball-game-arena.jpg width=350px>')}
+ 
+else if (favsport=='football') {
+    document.write('<img src="https://ebigh.com/wp-content/uploads/2021/04/football-soccer.jpg" width=350px>');}
+else {
+  document.write('<h2> please select basketball or football next time</h2>');}
+
+
+
+
+
+
+var star = prompt('how many stars do you rate our website?');
+
+if (star > 5) {
+  star = 5;
+}
+
+for (var i = 0; i < star; i++) {
+
+  document.write('<img src="https://cdn1.iconfinder.com/data/icons/hand-signs-emotions-bright-flat-design/128/star-favorite-rating-important-512.png" width="40px">');
+}
+
+
+var img = prompt('how many images about basketball you need to show ?');
+
+for (var i=0;i <= img ;i++){
+  document.write('<img src="https://thumbs.dreamstime.com/b/burning-basketball-fire-background-backgrounds-168018631.jpg" width="200px">');
+}
