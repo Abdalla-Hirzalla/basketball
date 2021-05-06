@@ -60,7 +60,7 @@ for (var i = 0; i < star; i++) {
 
 var img = prompt('how many images about basketball you need to show ?');
 
-for (var i=0;i <= img ;i++){
+for (var i=0;i < img ;i++){
   document.write('<img src="https://thumbs.dreamstime.com/b/burning-basketball-fire-background-backgrounds-168018631.jpg" width="200px">');
 }
 
