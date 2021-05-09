@@ -28,39 +28,50 @@ else{
 
 }
 
+function sportFav(){
+
 var favsport=prompt('what do you like more basketball or football?!');
+
 while(favsport!=='basketball' && favsport!=='football'){
   favsport= prompt('please only answer with basketball or football ');
 }
 
+
+var result=''
+
 if (favsport=='basketball'){
-  document.write('<img src=https://cdn.britannica.com/w:1100/44/193844-131-1E4A9F84/ball-net-basketball-game-arena.jpg width=350px>')}
+  result='<img src=https://cdn.britannica.com/w:1100/44/193844-131-1E4A9F84/ball-net-basketball-game-arena.jpg width=350px>'}
  
 else if (favsport=='football') {
-    document.write('<img src="https://ebigh.com/wp-content/uploads/2021/04/football-soccer.jpg" width=350px>');}
+    result='<img src="https://ebigh.com/wp-content/uploads/2021/04/football-soccer.jpg" width=350px>';}
 else {
   document.write('<h2> please select basketball or football next time</h2>');}
 
 
+return result;
+}
 
+//document.write(sportFav());
 
-
-
+var ratingStars=function(){
 var star = prompt('how many stars do you rate our website?');
 
 if (star > 5) {
   star = 5;
 }
-
+var starimg='';
 for (var i = 0; i < star; i++) {
 
-  document.write('<img src="https://cdn1.iconfinder.com/data/icons/hand-signs-emotions-bright-flat-design/128/star-favorite-rating-important-512.png" width="40px">');
+  starimg += '<img src="https://cdn1.iconfinder.com/data/icons/hand-signs-emotions-bright-flat-design/128/star-favorite-rating-important-512.png" width="40px">';
 }
 
+return starimg;
+}
+document.write(ratingStars());
 
 var img = prompt('how many images about basketball you need to show ?');
 
-for (var i=0;i <= img ;i++){
+for (var i=0;i < img ;i++){
   document.write('<img src="https://thumbs.dreamstime.com/b/burning-basketball-fire-background-backgrounds-168018631.jpg" width="200px">');
 }
 
